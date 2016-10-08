@@ -1,0 +1,46 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+	
+}
+.clearfloat {
+	zoom: 1;
+}
+
+.public-container {
+	position: relative;
+	max-width: 1308px;
+	margin: 0 auto;
+
+}
+.public-container1 {
+	position: relative;
+	max-width: 1024px;
+	margin: 0 auto;
+
+}
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+.current {
+
+	width: 206px;
+	border: 2px solid #c9cbce!important;
+	border-right: 0!important;
+	z-index: 105;
+	background: #fff;
+}
+.display {
+	display: block!important;
+}
+.wordCut{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
